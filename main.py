@@ -1,12 +1,10 @@
-#Take input of a string
-str1 = input("please Enter a sentence: ")
-total = 1 #initialise
+#Tnput the value of terms
+n = int(input("Enter the value terms: "))
 
-fori in range (len(str1)): # type: ignore
-#loop will run to calculate the length using string operation
-if(str1[i] == ' ' ):
-    #condition 1
-        total = total + 1
+sum = 0 #initialise
+i = 1 #initialise
+while i<=n: #loop will run from 1 to n
+    sum = sum+i
+    i = i+1
 
-print("Total Number of Words in this String = ", total)
-
+print("\nSum =",sum)
